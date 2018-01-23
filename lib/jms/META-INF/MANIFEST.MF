@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Export-Package: javax.jms;uses:="javax.transaction.xa";version="2.0",j
+ avax.jms.doc-files;version="2.0"
+Implementation-Version: 2.0
+Built-By: jlsato
+Specification-Vendor: Oracle Corporation
+Tool: Bnd-1.15.0
+Bundle-Name: JMS API
+Created-By: Apache Maven Bundle Plugin
+Implementation-Vendor-Id: org.glassfish.mq
+Build-Jdk: 1.7.0_09
+Bundle-Version: 2.0
+Bnd-LastModified: 1366738650439
+Bundle-ManifestVersion: 2
+Bundle-Description: Java(TM) Message Service Specification
+Bundle-License: https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.h
+ tml
+Specification-Version: 2.0
+Import-Package: javax.transaction.xa
+Bundle-SymbolicName: javax.jms-api
+Extension-Name: javax.jms
+Archiver-Version: Plexus Archiver
+
